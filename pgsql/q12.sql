@@ -1,0 +1,1 @@
+SELECT COUNT (DISTINCT oid) AS numorganizations from organization;

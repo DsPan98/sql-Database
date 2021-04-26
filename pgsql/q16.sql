@@ -1,0 +1,1 @@
+SELECT * FROM (SELECT eid, COUNT(eid) AS numpeople FROM participate GROUP BY eid) y GROUP BY y.eid, y.numpeople ORDER BY numpeople DESC limit 1;
